@@ -1,3 +1,6 @@
+# Pipeline ejecutado - forzando run
+
+
 name: CI Django
 
 on:
