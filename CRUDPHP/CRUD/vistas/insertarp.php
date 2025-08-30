@@ -10,7 +10,7 @@
 <?php 
 session_start();
  ?>
-    <title>Registro de Personas</title>
+    <title>Registro de los clientes</title>
   </head>
   <body>
    <div class="container mt-4">
@@ -18,7 +18,7 @@ session_start();
    	<div class="col-xl-6 col-lg-6 col-md-8 col-12">
    	<div class="card">
    	<div class="card-header bg-danger text-white">
-     <span><strong>Registro</strong></span>		
+     <span><strong>Registrar</strong></span>		
    	</div>	
    	<form action="../logica/registrar.php" method="POST">
    	<div class="card-body">
@@ -28,11 +28,11 @@ session_start();
    	<input type="text" name="txtdni" class="form-control" placeholder="digite su dni..">
    	</div>	
    	<div class="form-group">
-   	<label>APELLIDOS</label>
+   	<label>APELLIDOS COMPLETOS</label>
    	<input type="text" name="txtapellidos" class="form-control" placeholder="dingrese sus apellidos completos..">
    	</div>	
    	<div class="form-group">
-   	<label>NOMBRES</label>
+   	<label>NOMBRES COMPLETOS</label>
    	<input type="text" name="txtnombres" class="form-control" placeholder="ingrese sus nombres completos...">
    	</div>	
    	</div>	
@@ -43,7 +43,7 @@ session_start();
    	 	 <input type="submit" name="btnRegistrar" class="btn btn-outline-success" value="Registrar">
    	 </div>
    	 <div class="col-xl-5 col-lg-7 col-md-6 col-sm-5 col-6 ">
-   	 	<a href="lista.php">ver personas registradas</a>
+   	 	<a href="lista.php">ver todas las personas registradas</a>
    	 </div>
    	 </div>
    	 <div class="mt-2 text-center">
